@@ -1,10 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+.intro-section {
+    background-color: #dfc2f2; 
+    padding: 16px;
 }
 
 .top {
@@ -32,6 +38,7 @@ ul {
 }
 
 .info-heading {
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -47,13 +54,19 @@ ul {
 }
 
 .quote-section {
+    background-color: #e5e7eb;
     text-align: center;
 }
 
 .subscribe-section {
+    background-color: #266dd3;
     display: flex;
     justify-content: center;
     gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    border-radius: 8px;
 }
 
 .subscribe-text {
