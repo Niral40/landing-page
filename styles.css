@@ -30,3 +30,18 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.info-heading {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
