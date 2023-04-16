@@ -1,4 +1,6 @@
 body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -6,6 +8,17 @@ body {
 
 a {
     text-decoration: none;
+    color: #0e2a51;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    max-width: 150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .intro-section {
@@ -16,12 +29,19 @@ a {
 .top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.header-logo {
+    font-family: gill sans; 
+    font-size: 24px;
+    font-weight: 700;
+    color: #266dd3;
 }
 
 ul {
-    font-size: 18px;
-    display: flex;
     list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
     gap: 16px;
@@ -30,11 +50,39 @@ ul {
 .hook {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .hook-info {
     display: flex;
     flex-direction: column;
+    align-self: center;
+    margin-top: 32px;
+}
+
+.hook-heading {
+    color: #006aff;
+    font-family: futura;
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: -4px;
+    margin-bottom: 16px;
+}
+
+.hook-text {
+    color: #0e2a51;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+#intro-subscribe-button {
+    box-shadow: 2px 5px #266dd3;
+    margin-top: 12px;
+}
+
+.top, .hook {
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .info-heading {
