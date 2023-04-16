@@ -49,3 +49,15 @@ ul {
 .quote-section {
     text-align: center;
 }
+
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.subscribe-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
