@@ -51,6 +51,8 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 64px;
+    flex-wrap: wrap;
+    gap: 48px; /* leaves gap between subscribe button and image on wrap */
 }
 
 .hook-info {
@@ -76,6 +78,8 @@ ul {
 }
 
 #intro-subscribe-button {
+    background-color: #ffffff;
+    border-color: #0e2a51;
     box-shadow: 2px 5px #266dd3;
     margin-top: 12px;
 }
