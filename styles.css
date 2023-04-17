@@ -85,20 +85,44 @@ ul {
     margin-right: 48px;
 }
 
+.info-section {
+    background-color: #ffffff;
+}
+
 .info-heading {
     background-color: #ffffff;
+    color: #266dd3;
+    font-family: futura;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
+    padding: 16px;
+    margin: 16px;
+    margin-bottom: 32px;
 }
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card img {
+    border: 2px solid #0e2a51;
+    border-radius: 8px;
+}
+
+.card .text {
+    max-width: 300px;
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 16px;
 }
 
 .quote-section {
