@@ -109,6 +109,8 @@ ul {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 32px;
+    gap: 48px;
+    flex-wrap: wrap;
 }
 
 .card {
