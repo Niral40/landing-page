@@ -134,6 +134,21 @@ ul {
 .quote-section {
     background-color: #e5e7eb;
     text-align: center;
+    line-height: 1.5;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 64px;
+}
+
+.quotee {
+    color: #0e2a51;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-bottom: 56px;
 }
 
 .subscribe-section {
